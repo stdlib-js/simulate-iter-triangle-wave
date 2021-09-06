@@ -263,6 +263,23 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/simulate/iter/pulse`][@stdlib/simulate/iter/pulse]: create an iterator which generates a pulse waveform.
+-   [`@stdlib/simulate/iter/sawtooth-wave`][@stdlib/simulate/iter/sawtooth-wave]: create an iterator which generates a sawtooth wave.
+-   [`@stdlib/simulate/iter/sine-wave`][@stdlib/simulate/iter/sine-wave]: create an iterator which generates a sine wave.
+-   [`@stdlib/simulate/iter/square-wave`][@stdlib/simulate/iter/square-wave]: create an iterator which generates a square wave.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -319,6 +336,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/simulate-iter-triangle-wave/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/simulate/iter/pulse]: https://github.com/stdlib-js/simulate-iter-pulse
+
+[@stdlib/simulate/iter/sawtooth-wave]: https://github.com/stdlib-js/simulate-iter-sawtooth-wave
+
+[@stdlib/simulate/iter/sine-wave]: https://github.com/stdlib-js/simulate-iter-sine-wave
+
+[@stdlib/simulate/iter/square-wave]: https://github.com/stdlib-js/simulate-iter-square-wave
+
+<!-- </related-links> -->
 
 </section>
 
