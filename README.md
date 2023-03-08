@@ -32,10 +32,14 @@ A triangle waveform is represented by the following equation
 
 <!-- <equation class="equation" label="eq:triangle_waveform" align="center" raw="f(t; \tau, a, \varphi) = \frac{2a}{\pi} \operatorname{arcsin} \sin \frac{2\pi(t-\varphi)}{\tau}" alt="Equation for a triangle waveform."> -->
 
-<div class="equation" align="center" data-raw-text="f(t; \tau, a, \varphi) = \frac{2a}{\pi} \operatorname{arcsin} \sin \frac{2\pi(t-\varphi)}{\tau}" data-equation="eq:triangle_waveform">
+```math
+f(t; \tau, a, \varphi) = \frac{2a}{\pi} \operatorname{arcsin} \sin \frac{2\pi(t-\varphi)}{\tau}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="f(t; \tau, a, \varphi) = \frac{2a}{\pi} \operatorname{arcsin} \sin \frac{2\pi(t-\varphi)}{\tau}" data-equation="eq:triangle_waveform">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@5827c258000edcb03496265cdfd372d686b4c656/lib/node_modules/@stdlib/simulate/iter/triangle-wave/docs/img/equation_triangle_waveform.svg" alt="Equation for a triangle waveform.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -279,10 +283,10 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/simulate/iter/pulse`][@stdlib/simulate/iter/pulse]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a pulse waveform.</span>
--   <span class="package-name">[`@stdlib/simulate/iter/sawtooth-wave`][@stdlib/simulate/iter/sawtooth-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sawtooth wave.</span>
--   <span class="package-name">[`@stdlib/simulate/iter/sine-wave`][@stdlib/simulate/iter/sine-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sine wave.</span>
--   <span class="package-name">[`@stdlib/simulate/iter/square-wave`][@stdlib/simulate/iter/square-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a square wave.</span>
+-   <span class="package-name">[`@stdlib/simulate-iter/pulse`][@stdlib/simulate/iter/pulse]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a pulse waveform.</span>
+-   <span class="package-name">[`@stdlib/simulate-iter/sawtooth-wave`][@stdlib/simulate/iter/sawtooth-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sawtooth wave.</span>
+-   <span class="package-name">[`@stdlib/simulate-iter/sine-wave`][@stdlib/simulate/iter/sine-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sine wave.</span>
+-   <span class="package-name">[`@stdlib/simulate-iter/square-wave`][@stdlib/simulate/iter/square-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a square wave.</span>
 
 </section>
 
@@ -341,7 +345,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
