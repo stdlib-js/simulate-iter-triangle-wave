@@ -71,7 +71,7 @@ where `τ` is the period, `a` is the peak amplitude, and `φ` is the phase offse
 ## Usage
 
 ```javascript
-import iterTriangleWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-triangle-wave@deno/mod.js';
+import iterTriangleWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-triangle-wave@v0.2.0-deno/mod.js';
 ```
 
 #### iterTriangleWave( \[options] )
@@ -236,7 +236,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterTriangleWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-triangle-wave@deno/mod.js';
+import iterTriangleWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-triangle-wave@v0.2.0-deno/mod.js';
 
 // Create an iterator:
 var opts = {
