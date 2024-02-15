@@ -73,7 +73,7 @@ where `τ` is the period, `a` is the peak amplitude, and `φ` is the phase offse
 To use in Observable,
 
 ```javascript
-iterTriangleWave = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-triangle-wave@umd/browser.js' )
+iterTriangleWave = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-triangle-wave@v0.2.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -85,7 +85,7 @@ var iterTriangleWave = require( 'path/to/vendor/umd/simulate-iter-triangle-wave/
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-triangle-wave@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-triangle-wave@v0.2.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -263,7 +263,7 @@ var bool = it.next().done;
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-triangle-wave@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-triangle-wave@v0.2.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
